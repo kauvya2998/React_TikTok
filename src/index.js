@@ -104,6 +104,8 @@ function Square(props) {
       status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
     }
       return (
+          <h1>Welcome!</h1>
+          <h4>Ready for a Tic-Tac-Toe game?</h4>
         <div className="game">
           <div className="game-board">
             <Board  squares={current.squares}
